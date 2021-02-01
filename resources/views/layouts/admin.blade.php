@@ -12,6 +12,8 @@
 
 <body>
   <div id="app" class="container">
+    @include('components.error_message')
+    
     <h2 class="h2 p-3 bg-info text-white">{{ $title }}</h2>
     @yield('content')
   </div>
